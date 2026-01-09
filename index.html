@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ArcPredict | Built by @big_4_l</title>
+</head>
+<body class="bg-[#050505] text-white selection:bg-blue-500 font-sans">
+    <nav class="border-b border-white/10 p-5 flex justify-between items-center bg-black/50 backdrop-blur-md sticky top-0">
+        <div class="flex items-center gap-2">
+            <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center font-bold italic shadow-lg shadow-blue-500/20">A</div>
+            <span class="text-xl font-black tracking-tighter uppercase">Arc Predict</span>
+        </div>
+        <button class="bg-blue-600 hover:bg-blue-500 px-6 py-2 rounded-full font-bold transition-all text-sm">Connect Wallet</button>
+    </nav>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 pb-32">
+        <div class="mb-12 text-center md:text-left">
+            <h1 class="text-5xl font-black mb-4 leading-tight">Predict the <span class="text-blue-500">Future.</span></h1>
+            <p class="text-gray-400 text-lg">Trade on outcomes with native USDC on the Arc Network.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="market-container">
+            <div class="bg-[#0f0f0f] border border-white/5 rounded-3xl p-8 hover:border-blue-500/40 transition-all group">
+                <span class="text-blue-500 text-[10px] font-bold uppercase tracking-[0.2em] mb-4 block">Crypto</span>
+                <h3 class="text-2xl font-bold mb-8 group-hover:text-blue-400">Will BTC hit $100k in 2026?</h3>
+                <div class="flex gap-3">
+                    <button class="flex-1 bg-blue-600/10 border border-blue-500/20 text-blue-500 py-3 rounded-xl font-bold hover:bg-blue-600 hover:text-white transition-all">YES 64%</button>
+                    <button class="flex-1 bg-white/5 border border-white/10 text-gray-500 py-3 rounded-xl font-bold hover:bg-white/10 hover:text-white transition-all">NO 36%</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="fixed bottom-0 w-full p-6 bg-gradient-to-t from-black to-transparent flex justify-center z-50">
+        <a href="https://x.com/big_4_l" target="_blank" class="flex items-center gap-2 bg-white/5 backdrop-blur-xl border border-white/10 px-6 py-3 rounded-full hover:scale-105 transition-all group">
+            <span class="text-gray-500 text-sm">Built by</span>
+            <span class="font-bold text-white group-hover:text-blue-400 transition-colors">@big_4_l</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+    </footer>
+</body>
+</html>
